@@ -681,16 +681,16 @@
                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSesvIoRuzY2J7D4FQo2ni_y_cR13J4x7cWObZGtIB1GY5AU7Q/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
                     <div class="row">
 								<div class="input-field">
-					  				<input id="first_name" type="email" name="entry.942859040">
-					  				<label for="first_name">Your Name</label>
+					  				<input id="first_name" type="email" name="entry.942859040" required data-error="Vui Lòng Điền Tên Của Bạn">
+					  				<label for="first_name">Tên Của Bạn</label>
 					  			</div>
 					  			<div class="input-field">
-					  				<input id="contact_email" type="email" name="entry.2046962285">
-					  				<label for="contact_email">Email Address</label>
+					  				<input id="contact_email" type="email" name="entry.2046962285 required data-error="Vui Lòng Nhập Đúng email" ">
+					  				<label for="contact_email">Địa Chỉ Email</label>
 					  			</div>
 					  			<div class="input-field">
-						  			<textarea class="materialize-textarea" name="entry.18601226"></textarea>
-						  			<label>Message</label>
+						  			<textarea class="materialize-textarea" name="entry.18601226" required data-error="Vui Lòng Nhập Nội Dung"></textarea>
+						  			<label>Nội Dung Liên Hệ</label>
 						  		</div>
 				  			</div>	
 				  			<button class="btn waves-effect waves-light" type="submit" name="action">Send</button>
