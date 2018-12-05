@@ -352,7 +352,7 @@ html {
 }
 
 h1, h2, h3, h4, h6, .btn, .btn-large, .btn-flat, .menu_bar_navigation, .cbp-spmenu a {
-	font-family: 'Lato', sans-serif;
+	font-family: sans-serif;
 } 
 
 @media (max-width: 479px) {html { font-size: 12px; }}
