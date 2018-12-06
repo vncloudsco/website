@@ -143,10 +143,10 @@
 	  					<li class="visible-lg visible-md"><a href="#more_info" class="go_to_overview" >Features</a></li>
 	  					<li class="visible-lg visible-md"><a href="#about_video" >Video</a></li>
 	  					<li class="visible-lg visible-md"><a href="#reviews" >Clients</a></li>
-	  					<li class="visible-lg visible-md"><a href="#screenshots" >Screenshots</a></li>
-	  					<li class="visible-lg visible-md"><a href="#pricing" >Pricing</a></li>
+	  					<li class="visible-lg visible-md"><a href="#screenshots" >Dự Án</a></li>
+	  					<li class="visible-lg visible-md"><a href="#pricing" >Bảng Giá</a></li>
 	  					<li class="visible-lg visible-md"><a href="#team" >Team</a></li>
-	  					<li class="visible-lg visible-md"><a href="#cta_download" >Download</a></li>
+	  					<li class="visible-lg visible-md"><a href="#cta_download" >Banking Account</a></li>
 	  					<li class="visible-lg visible-md"><a href="#contact" >Contact</a></li>
 	  					<li class="hidden-lg hidden-md"><div class="mobile_nav_open_button "><a href="" id="showRight"><div data-icon="&#xe2f3;" class="button_icon close_icon"></div></a></div></li>
 	  				</ul>
@@ -679,18 +679,26 @@
 						<p>Liên Hệ Ngay Với Chúng Tôi Để Nhận Thông Tin Ưu Đãi </p>
 
 						<!-- Contact Form -->
-						<form action="php/contactform.php" id="contact-form" method="post">
+
+
+                   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='https://vnclouds.co/thankyou.html';}"></iframe>
+     			<form id="contact-form" class="contact100-form validate-form" action="https://docs.google.com/forms/d/e/1FAIpQLScebrmCAzGX1WBTtbiapz-2fIXa0IiOYDFm--kn9UfVH_qk6A/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 							<div class="contact_form">
 								<div class="input-field">
-					  				<input id="first_name" type="email" name="contact-name">
+					  				<input id="first_name" type="text" name="entry.889294379">
 					  				<label for="first_name">Your Name</label>
 					  			</div>
 					  			<div class="input-field">
-					  				<input id="contact_email" type="email" name="contact-email">
+					  				<input id="contact_email" type="email" name="entry.2055867449">
 					  				<label for="contact_email">Email Address</label>
 					  			</div>
+
 					  			<div class="input-field">
-						  			<textarea class="materialize-textarea" name="contact-message"></textarea>
+					  				<input id="contact_email" type="email" name="entry.514722777">
+					  				<label for="number">Số Điện Thoại</label>
+					  			</div>
+					  			<div class="input-field">
+						  			<textarea class="materialize-textarea" name="entry.1451622279"></textarea>
 						  			<label>Message</label>
 						  		</div>
 				  			</div>	
